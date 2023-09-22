@@ -5,7 +5,7 @@ git clone:
     > git clone https://github.com/kishore1173/project-S.git (repository link [code --> copy])
 
 git status:
-     it will show file status as undefined , after added it show A (store in waiting area)
+     it will show file status as U(untrack) , after added it show A (store in staging area)
      after commit it show M (store in local repository) then push
      > git status
 
@@ -24,4 +24,3 @@ git commit:
 git push:
       it will push to github.
       > git push origin main(main file in repository)
-      
