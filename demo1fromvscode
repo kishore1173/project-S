@@ -1,0 +1,27 @@
+git
+add  -->  commit  -->  push
+git clone:
+    it will copy a file from github to local repository
+    > git clone https://github.com/kishore1173/project-S.git (repository link [code --> copy])
+
+git status:
+     it will show file status as undefined , after added it show A (store in waiting area)
+     after commit it show M (store in local repository) then push
+     > git status
+
+git add:
+     it store the file in waiting area (.git)
+     < Your branch is up to date with 'origin/main'.
+     > git add filename
+
+
+git commit:
+      it store file in local repository and .git file
+      it also called save a file
+      > git commit -m "filename"
+      < 1 file changed, 0 insertions(+), 0 deletions(-) create mode 100644 filename
+
+git push:
+      it will push to github.
+      > git push origin main(main file in repository)
+      
