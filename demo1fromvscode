@@ -24,3 +24,8 @@ git commit:
 git push:
       it will push to github.
       > git push origin main(main file in repository)
+
+git pull:
+      it is used to store data from github to local repository
+      pull all data from new files to github 
+      > git pull 
